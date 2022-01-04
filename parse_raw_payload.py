@@ -127,8 +127,7 @@ def run_search():
     HOST = "cnsesplunkoperations.svc.ny.gov"
     PORT = 8089
     USERNAME = "bdk01"
-#     PASSWORD = mygetpass()
-    PASSWORD = "Xsw2chini,"
+    PASSWORD = getpass.getpass()
     OWNER = "bdk01"
     APP = "search"
 
